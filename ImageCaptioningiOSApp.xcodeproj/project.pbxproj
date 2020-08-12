@@ -14,6 +14,7 @@
 		270982AB24E3739800EC8085 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270982AA24E3739800EC8085 /* Preview Assets.xcassets */; };
 		270982AE24E3739800EC8085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270982AC24E3739800EC8085 /* LaunchScreen.storyboard */; };
 		270982B924E3739900EC8085 /* ImageCaptioningiOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270982B824E3739900EC8085 /* ImageCaptioningiOSAppTests.swift */; };
+		270982C924E37E1B00EC8085 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270982C824E37E1B00EC8085 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		270982B424E3739900EC8085 /* ImageCaptioningiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCaptioningiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		270982B824E3739900EC8085 /* ImageCaptioningiOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptioningiOSAppTests.swift; sourceTree = "<group>"; };
 		270982BA24E3739900EC8085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270982C324E3753400EC8085 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		270982C824E37E1B00EC8085 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		2709829524E3739500EC8085 = {
 			isa = PBXGroup;
 			children = (
+				270982C324E3753400EC8085 /* README.md */,
 				270982A024E3739500EC8085 /* ImageCaptioningiOSApp */,
 				270982B724E3739900EC8085 /* ImageCaptioningiOSAppTests */,
 				2709829F24E3739500EC8085 /* Products */,
@@ -81,6 +85,7 @@
 			children = (
 				270982A124E3739500EC8085 /* AppDelegate.swift */,
 				270982A324E3739500EC8085 /* SceneDelegate.swift */,
+				270982C824E37E1B00EC8085 /* ImagePicker.swift */,
 				270982A524E3739500EC8085 /* ContentView.swift */,
 				270982A724E3739800EC8085 /* Assets.xcassets */,
 				270982AC24E3739800EC8085 /* LaunchScreen.storyboard */,
@@ -209,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				270982A224E3739500EC8085 /* AppDelegate.swift in Sources */,
+				270982C924E37E1B00EC8085 /* ImagePicker.swift in Sources */,
 				270982A424E3739500EC8085 /* SceneDelegate.swift in Sources */,
 				270982A624E3739500EC8085 /* ContentView.swift in Sources */,
 			);
