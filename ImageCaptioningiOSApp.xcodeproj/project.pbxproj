@@ -15,6 +15,7 @@
 		270982AE24E3739800EC8085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270982AC24E3739800EC8085 /* LaunchScreen.storyboard */; };
 		270982B924E3739900EC8085 /* ImageCaptioningiOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270982B824E3739900EC8085 /* ImageCaptioningiOSAppTests.swift */; };
 		270982C924E37E1B00EC8085 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270982C824E37E1B00EC8085 /* ImagePicker.swift */; };
+		278949A324E3B0C300554DA4 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 278949A224E3B0C300554DA4 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		270982BA24E3739900EC8085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		270982C324E3753400EC8085 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		270982C824E37E1B00EC8085 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		278949A224E3B0C300554DA4 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		270982A024E3739500EC8085 /* ImageCaptioningiOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				270982CA24E3AEDA00EC8085 /* Models */,
 				270982A124E3739500EC8085 /* AppDelegate.swift */,
 				270982A324E3739500EC8085 /* SceneDelegate.swift */,
 				270982C824E37E1B00EC8085 /* ImagePicker.swift */,
@@ -110,6 +113,14 @@
 				270982BA24E3739900EC8085 /* Info.plist */,
 			);
 			path = ImageCaptioningiOSAppTests;
+			sourceTree = "<group>";
+		};
+		270982CA24E3AEDA00EC8085 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				278949A224E3B0C300554DA4 /* SqueezeNet.mlmodel */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +226,7 @@
 			files = (
 				270982A224E3739500EC8085 /* AppDelegate.swift in Sources */,
 				270982C924E37E1B00EC8085 /* ImagePicker.swift in Sources */,
+				278949A324E3B0C300554DA4 /* SqueezeNet.mlmodel in Sources */,
 				270982A424E3739500EC8085 /* SceneDelegate.swift in Sources */,
 				270982A624E3739500EC8085 /* ContentView.swift in Sources */,
 			);

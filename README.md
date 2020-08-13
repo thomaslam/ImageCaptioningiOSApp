@@ -1,9 +1,12 @@
-#  ROADMAP
+# ROADMAP
 - [ ] Basic UI: 
     - [x] Image picker
-    - [ ] Generate caption button
+    - [x] Generate caption button
     - [ ] Better spacing
-- [ ] Pytorch CNN + LSTM for image captioning
-- [ ] Convert Pytorch model into CoreML
-- [ ] Integrate CoreML into app
+- [ ] Handle ML output logic from CoreML model
+- [ ] Machine Learning experiments:
+    - [ ] Experiment with different models: VGG, ResNet, CNN, RNN, LSTM, Transformer
+    - [ ] Pytorch vs Keras/Tensorflow 
+- [ ] Convert final Python model into CoreML model
+- [ ] Integrate converted CoreML model into app
 
